@@ -1,0 +1,105 @@
+#+Title: Analysis on manifolds
+
+* Notes								   :noexport:
+
+- Alternative titles: Geometric PDE, Invariant PDE (elliptic and parabolic, hyperbolic?)
+
+* Bundles
+
+** The Tangent Bundle 
+** Vector Bundles 
+- motivated by tangent bundle
+- Tensor bundles
+- differential forms
+- $E$ valued differential forms
+** Principal Bundles 
+- motivated by Frame Bundle
+- these are the symmetry groups of frame bundles! Uniquely determined by transition functions determining the bundle
+** Fibre bundles
+- Especially important for immersion/embeddings, harmonic maps, MCF etc.
+  \[
+  \Gamma(M \times N) = C^{\infty}(M \to N)
+  \]
+  and $N$ need not have any particular structure beyond being a smooth manifold.
+** Sheaves of Sections
+- Correspond one-to-one with bundles
+- Structure sheaf determines manifold
+- local operations act on sections/germs
+** Jet bundles
+- This is where differentiabiliy is defined! It's just the bundle associated to the the sheaf of germs
+- used for the $h$-principle
+- used also for interpreting connections and differential operators
+
+* Connections and Curvature
+- Splitting exact sequence $0 \to VE \to TE \to TM \to 0$  (vertical/ horizontal) in particular to differentiate a section \(s : M \to E\) we get \(ds : TM \to TE\) and a splitting gives exactly the required map $TE \to  E \simeq VE$.
+- pull back
+- as sections of jet bundles
+- covariant derivatives 
+- connection form
+- moduli space of connections
+- curvature form
+* ODE
+
+- warm up for PDE theory
+- some function spaces like Holder spaces needed for ODE's?
+- first order linear, flows and vector fields
+- second order is a system of first order ODE's on TM e.g. geodesic flow 
+- local existence and uniqueness - first local flow box and then give a global type intrinsic proof
+
+* Functional Analysis
+
+- Measurable functions
+- L^p spaces 
+- Sobolev spaces
+- Holder spaces
+- Interpolation spaces
+- BV functions
+- Besov spaces etc.? See Palais book on nonlinear analysis
+- Sections are not always into a linear space - eg an immersion $M \to N$ with not a linear space so need to consult Hamilton and Andrews on Nash-Moser implicit function theorem. The point is to work in Frechet otlr convex spaces etc.
+
+* Differential operators
+- see Slovak et. al. Natural Operations
+- Index etc.?
+- linearisation and symbol
+- jet bundles again
+- traces, symmetric functions etc.
+* Gauge Invariance
+- All our equations have some sort of geometric invariance and/or diffeomorphism invariance
+- This is a super important aspect of the situation
+- Discuss gauge transformation and gauge fixing
+* Existence and Uniqueness
+
+- Implicit function Thm
+- de Turk
+- Gauge invariance and degeneracy of symbol
+
+* Regularity Theory
+- Where to go for this?
+* Examples
+- MCF
+- Ricci flow
+- Yang-Mills
+- Harmonic maps
+- Dirac stuff?
+- Whitney immersion
+- Nash embeddings
+- h-principle? Smale spher eversion for example
+- Perelman
+* Maximum Principles
+- For elliptic and parabolic equations
+- Krein-Rutman type approach - preserving cones etc.
+* Estimates
+- local estimates
+- a priori estimates
+- Higher derivative and smoothing estimates
+- Shi estimates...
+* Calculus of Variations
+- Functionals
+- Variations
+- Linearisation
+- Convexity!
+- monotone functionals
+* Convergence Results
+- Hamilton Ricci flow
+- Huisken MCF
+- Eels and Sampson
